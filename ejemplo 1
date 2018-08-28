@@ -1,0 +1,28 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+
+    int uno = 0;
+    int dos = 0;
+
+    cout << "Ingrese el 1er número: " << endl;
+    cin >> uno;
+
+    cout << "Ingrese el 2do número: " << endl;
+    cin >> dos;
+
+    float a = uno;
+    float b = dos;
+
+    int tres = uno / dos;
+    float c = a/b;
+
+    cout << "La división entera es: " << tres << endl;
+    cout << "La división real es: " << c << endl;
+    
+    
+    return 0;
+    
+}
